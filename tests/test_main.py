@@ -11,7 +11,8 @@ def test_read_root():
 def test_create_user():
     response = client.post("/users/", json={"name": "John Doe", "email": "johndoe@example.com", "age": 30})
     assert response.status_code == 200
-    assert "id" in response.json()
+    assert "_id" in response.json()
+    assert response.json()["_id"] is not None
     assert response.json()["name"] == "John Doe"
     assert response.json()["email"] == "johndoe@example.com"
     assert response.json()["age"] == 30
