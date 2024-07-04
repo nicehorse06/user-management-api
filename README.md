@@ -1,7 +1,6 @@
 # User Management API
 
-This API is used for managing user information, including user creation and retrieval operations.
-
+This API is built using FastAPI and is used for managing user information, including user creation and retrieval operations.
 
 ## Using Docker
 ``` sh
