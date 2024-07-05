@@ -3,3 +3,7 @@ uvicorn
 pymongo
 motor
 pytest
+langchain
+openai
+faiss-cpu
+python-dotenv
