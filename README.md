@@ -1,6 +1,6 @@
 # User Management API
 
-This API, built using FastAPI, MongoDB, and Docker, manages user information and implements translation functionality using langchain and OpenAI.
+This demo API, built using FastAPI, MongoDB, and Docker, manages user information and implements translation functionality using langchain and OpenAI, and uses GitHub Actions for CI unit tests.
 
 
 ## set OPENAI API key
