@@ -3,7 +3,7 @@ uvicorn
 pymongo
 motor
 pytest
-langchain
-openai
-faiss-cpu
+langchain-openai
 python-dotenv
+langserve
+sse_starlette

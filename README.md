@@ -1,6 +1,10 @@
 # User Management API
 
-This API is built using FastAPI, MongoDB, and Docker for managing user information, including creation and retrieval operations.
+This API, built using FastAPI, MongoDB, and Docker, manages user information and implements translation functionality using langchain and OpenAI.
+
+
+## set OPENAI API key
+Please add the variable `OPENAI_API_KEY=your_key` to your `.env` file to use this application.
 
 ## Using Docker
 ``` sh
@@ -23,6 +27,8 @@ uvicorn app.main:app --reload
 * http://127.0.0.1:8000/docs
 * http://127.0.0.1:8000/redoc
 * http://127.0.0.1:8000/openapi.json
+* http://127.0.0.1:8000/chain/playground/
+  * langchin翻譯頁面
 
 ## TODO
 * Unit testing
